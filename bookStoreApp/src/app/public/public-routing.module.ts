@@ -10,7 +10,7 @@ const routes: Routes = [
     component: PublicComponent,
     children: [
       { path: 'all-books', component: AllBooksComponent },
-      { path: 'book-details/:id/auther/:autherId', component: BookDetailsComponent },
+      { path: 'book-details/:id', component: BookDetailsComponent },
     ],
   },
 ];
